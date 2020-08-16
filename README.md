@@ -1,3 +1,4 @@
+```
 Login to Rancher:
     rancher login $RANCHER_URL --token $BEARER_TOKEN --context $PROJECT_ID --skip-verify
 Switch between projects inside the cluster:
@@ -17,3 +18,4 @@ Environments Information:
     PROJECT_ID - after navigate the project in rancher website you can find the project id in the url address: https://.../v3/cluster/[PROJECT_ID]/namespace/...
     BEARER_TOKEN - in rancher website press on your right-top user icon -> 'API & Keys' -> Add key -> Create, then you can see the bearer token.
     YAML_FILE - path to the k8s deployment YAML file.
+```
